@@ -1,0 +1,86 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+}
+
+.card {
+  background-color: black !important;
+  height: 15vw;
+  opacity: 0.6;
+  width: 15vw;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.2vw;
+  text-align: center;
+  margin-left: 1vw;
+  margin-top: 2vh;
+}
+.cloud {
+  margin: 1vh;
+}
+.card-1 {
+  margin-top: 10vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+.card-2 {
+  margin-top: 2vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+.card-3 {
+  margin-top: 10vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+.card-4 {
+  margin-top: 2vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+.card-5 {
+  margin-top: 10vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+.card-6 {
+  margin-top: 2vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+.card-7 {
+  margin-top: 10vw;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% !important;
+  border: 1px solid rgb(255, 217, 0) !important;
+}
+
+/* .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+} */
+@media only screen and (max-width: 720px) {
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+  .card {
+    width: 97vw;
+    height: 40vh;
+  }
+  .card-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10vh;
+  }
+}

@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5vw;
+}
+.day {
+  padding-left: 2vw;
+  padding-top: 1vw;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.2vw;
+}
+input {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.4;
+  text-align: center;
+  width: 25vw;
+  color: rgb(255, 251, 0);
+  border-radius: 5px;
+}
+.btn {
+  margin-left: 0.5vw !important;
+}
+@media only screen and (max-width: 720px) {
+  .box {
+    flex-direction: column;
+  }
+  input {
+    height: 4vh;
+    width: auto;
+  }
+  .btn {
+    margin-top: 3vw !important;
+  }
+  .day {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}

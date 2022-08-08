@@ -1,0 +1,17 @@
+.section-content{
+    width: 18vw;
+    height: auto;
+    margin: 1vh;
+    
+}
+.card-text{
+    font-size: 0.9rem;
+    font-weight:600;
+    color:rgb(0, 0, 0);
+    margin: auto;
+}
+.card{
+    box-shadow: 3px 7px 8px 6px rgba(2, 41, 15, 0.5);
+    background:linear-gradient(45deg, #a19a2d, #eeeeeef5);
+    border-radius: 7px;
+}
