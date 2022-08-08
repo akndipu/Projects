@@ -1,0 +1,143 @@
+/*--------Header-----------*/
+.header {
+  /* background: linear-gradient(240deg, #bcf08c, #647459, #ffffff, #79cf76, #247738, #5bc594, #76fce1, #90e6eb, #c4c4c4, #67b6d1); */
+  background: url(../UI/Images/wall.png) no-repeat center ;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.0365rem;
+  height: 116vh;
+ 
+}
+.main-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700;
+  letter-spacing: 0.0365rem;
+  color: rgb(218, 214, 214);
+  top: 15%;
+  position: absolute;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.main-info h4 {
+  font-size: 2.1vw;
+  /* transform: translateX(-30%) translateY(70%); */
+}
+.text {
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.0365rem;
+  font-size: 1.85vw;
+}
+
+.coffee {
+  color: crimson;
+  font-size: 2.3vw;
+}
+
+.about-name {
+  font-size: 2.2vw;
+  color: bisque;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  font-size: 2vw;
+  margin-top: 8vh;
+}
+
+.Asish {
+  background-color: #f3ec78;
+  background-image: linear-gradient(to bottom, #000000, #ff06c9);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 2.8vw;
+  font-weight: 900;
+  letter-spacing: 0.1775rem;
+}
+.img-blur {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+.btn-success {
+  background-color: transparent;
+  font-size: 1.5vw;
+  font-weight: 500;
+  letter-spacing: 0.245rem;
+  width: auto;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  margin-top: 10vh;
+  float: right;
+  color: rgb(76, 255, 5);
+}
+.btn-success a {
+  text-decoration: none;
+  color: rgb(76, 255, 5);
+}
+
+
+@media only screen and (max-width: 720px) {
+ 
+  .header {
+    /* background: linear-gradient(240deg, #bcf08c, #647459, #ffffff, #79cf76, #247738, #5bc594, #76fce1, #90e6eb, #c4c4c4, #67b6d1); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow-x: hidden !important;
+  }
+  .about-name {
+    font-size: 4.8vw;
+  }
+  .intro {
+    margin: auto;
+  }
+  .Asish {
+    font-size: 7vw;
+  }
+  .image {
+    height: 200px;
+  }
+  .text {
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.0365rem;
+    font-size: 5vw;
+  }
+
+  .main-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    font-size: 8vw;
+  }
+  .btn-success {
+    font-size: 3.8vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .coffee {
+    font-size: 5vw;
+  }
+}

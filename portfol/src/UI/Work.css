@@ -1,0 +1,73 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+/* .Vertical-line {
+  border-left: 6px solid green;
+  height:auto;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+} */
+.img-fluid {
+  width: 60vh;
+  height: 55vh;
+}
+.company-1 {
+  color: Blue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.company-2 {
+  color: Blue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.experience {
+  display: block;
+  font-size: 1.2rem;
+  color: darkslategrey;
+  padding-left: 15vw;
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 720px) {
+  .wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    overflow-x: hidden !important;
+  }
+  .img-fluid {
+    height: 300px;
+    width: 300px;
+  }
+  .company-1 {
+    color: Blue;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .company-2 {
+    color: Blue;
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .experience {
+    display: block;
+    font-size: 3.4vw;
+    color: darkslategrey;
+    padding-left: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 0.5vh;
+    font-weight: 500;
+    margin-right: 10vw ;
+    margin-bottom: 4vh;
+  }
+  
+}

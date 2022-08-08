@@ -1,0 +1,17 @@
+
+  .timer {
+    color:#09741b;
+    letter-spacing: 0.5vw;
+    font-size: 1.7vw;
+    margin-left: 7vw;
+    padding: auto;
+  }
+
+  @media only screen and (max-width: 720px) {
+    .timer {
+      font-size: 4.5vw;
+      margin: auto;
+    }
+  }
+    
+  
